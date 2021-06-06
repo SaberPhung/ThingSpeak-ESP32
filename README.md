@@ -13,6 +13,6 @@
 - ThingSpeak
 
 ## Step
-- Create ThingSpeak account and chanel
+- Create ThingSpeak account and channel
 - Connecting DHT11 with ESP32: GND, VCC, S (in my case, I connected S(DHT11) to pin 5 of ESP32)
 - Uploading code to ESP32 (hold boot button until complete, whenever done upload press enable button on ESP32 to start program)
