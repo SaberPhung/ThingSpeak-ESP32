@@ -5,11 +5,11 @@
 #define DHTPIN 5  
 #define DHTTYPE DHT11  
 DHT dht(DHTPIN, DHTTYPE);  
-const char* ssid = "Sahin 2.4";  
-const char* password = "zme9CL9rAs";  
+const char* ssid = "your wifi name";  
+const char* password = "your wifi password";  
 WiFiClient client;  
-unsigned long myChannelNumber = 1409367;  
-const char * myWriteAPIKey = "Z2JBCY7PQUX8H6WN";  
+unsigned long myChannelNumber = 1409367;  // your thingspeak channel number
+const char * myWriteAPIKey = "Z2JBCY7PQUX8H6WN";  // your thingspeak write API key
 uint8_t temperature, humidity;  
 void setup()  
 {  
